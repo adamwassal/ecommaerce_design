@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Store</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../styles/bootstrap/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+</head>
+<body>
+    <div id="header"></div>
+
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-4">
+                <form action="">
+                    <center>
+                        <h1>Filter</h1>
+                        <input type="range" />
+                        <p style="margin-top: 0">0-200000</p>
+                        <input type="search" name="" id="" placeholder="Search on product...">
+                        <hr>
+                        <h2>Categories</h2>
+                        <a href="#" class="badge badge-success p-3">Dell</a>
+                        <a href="#" class="badge badge-success p-3">HP</a>
+                        <a href="#" class="badge badge-success p-3">Mac</a>
+                        <hr>
+                        <h2>Tags</h2>
+                        <a href="#" class="badge badge-success p-3">i7</a>
+                        <a href="#" class="badge badge-success p-3">i5</a>
+                        <a href="#" class="badge badge-success p-3">i3</a>
+                    </center>
+                </form>
+            </div>
+
+            <div class="products row mx-auto col-8" id="product-list">
+                <!-- Products will be loaded here dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+    <script src="../js/header.js"></script>
+    <script src="../js/footer.js"></script>
+    <script src="../js/bootstrap/popper.min.js"></script>
+    <script src="../js/bootstrap/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap/bootstrap.js"></script>
+    <script src="../js/store.js"></script>
+</body>
+</html>
